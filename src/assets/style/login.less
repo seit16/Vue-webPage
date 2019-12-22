@@ -1,0 +1,72 @@
+.login {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: -webkit-box;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  background: rgba(0, 0, 0, 0.3);
+  .login__wrap {
+    height: 280px;
+    width: 300px;
+    background: #fff;
+  }
+  .login__container {
+    position: relative;
+    padding: 20px;
+  }
+  .login__title {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .login__close {
+    float: right;
+    color: #ccc;
+    cursor: pointer;
+  }
+  .login__input_group {
+    margin-top: 24px;
+    .login__input {
+      margin-top: 8px;
+      padding: 12px;
+      width: 100%;
+      border: 1px solid #e9e9e9;
+      border-radius: 2px;
+      outline: none;
+      box-sizing: border-box;
+      font-size: 0.7em;
+    }
+    .login__input:focus {
+      border: 1px solid #007fff;
+    }
+  }
+  .login__submit {
+    margin-top: 16px;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background: #007fff;
+    text-align: center;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+  }
+  .login__tips {
+    margin-top: 12px;
+    width: 100%;
+    color: #8b9196;
+    font-size: 0.8em;
+    .login__tips__register {
+      color: #007fff;
+      cursor: pointer;
+    }
+    .login__tips__not-password {
+      color: #007fff;
+      float: right;
+      cursor: pointer;
+    }
+  }
+}
