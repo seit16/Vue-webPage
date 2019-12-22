@@ -1,6 +1,6 @@
 # vue-webpage
 
-> A simplified webpage of login and logout based on vue2
+> A simplified webpage of login and logout based on vue2,
 > using vue-persistedstate to prevent data from being emptied
 
 
